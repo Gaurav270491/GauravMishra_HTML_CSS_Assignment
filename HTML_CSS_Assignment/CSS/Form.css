@@ -1,0 +1,27 @@
+.banner{width: 900px;
+    height: 715px;
+    background-image: url(../Images/Lab-Test/lab-test.jpg);
+    background-size: cover;
+    background-position: center;
+    float: right;
+
+
+}
+
+body{
+
+    background-color: antiquewhite;
+}
+
+input{
+
+    border-radius: 10%;
+}
+
+header{
+    
+    padding: 10px;
+    font-size:larger;
+    font-weight: bolder;
+}
+

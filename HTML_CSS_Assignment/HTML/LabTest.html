@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabTest Form</title>
+    <link rel="stylesheet" href="../CSS/Form.css">
+</head>
+<body>
+    <div class="banner"></div>
+    <section>
+        <header>
+            <h1>Lab Test Form</h1>
+        </header>
+    <form action="POST">
+            <article>
+                <h3>1.Your Contact Details</h3>
+                <input type="text" title="name" required spellcheck="true" placeholder="Full Name"> <input type="text" title="id" required spellcheck="true" placeholder="Patient Id if exists"> 
+                <br>
+                <input type="number" title="number" required spellcheck="true" placeholder="Contact Number"> <input type="text" title="email" required spellcheck="true" placeholder="Email ID">
+            </article>
+
+            <article>
+                <h3>2.Address</h3>
+                <input type="text" title="num" required spellcheck="true" placeholder="House Number"> <input type="text" title="street" required spellcheck="true" placeholder="Street"> 
+                <br>
+                <input type="text" title="area" required spellcheck="true" placeholder="Area"> 
+                
+                <h4>District</h4>
+                <select>
+                    <option>Choose</option>
+                    <option>Mumbai</option>
+                    <option>Lucknow</option>
+                    <option>Delhi</option>
+                </select>
+            </article>
+
+            <article>
+                <h3>3.Type of Test</h3>
+                <input type="radio" name="typeOfAd" checked>
+                <label>CBC</label>
+                <br>
+                <input type="radio" name="typeOfAd">
+                <label>Complete Urine</label>
+                <br>
+                <input type="radio" name="typeOfAd" >
+                <label>Lipid Profile</label>
+                <br>
+                <input type="radio" name="typeOfAd" >
+                <label>Thyroid Stimulating Hormone(TSH)</label>
+                <br>
+                <input type="radio" name="typeOfAd">
+                <label>Glucose Test</label>
+                <br>
+            </article>
+            <article>
+                <h3>4.Do you want a hard copy of the report also?</h3>
+                <input type="radio" name="typeOfAd"checked>
+                <label>Yes</label>
+                <input type="radio" name="typeOfAd">
+                <label>No</label>
+            </article>
+            <article>
+
+                <h3>5.Select Your Comfortable Date and Time</h3>
+                <input type="datetime-local" >
+              
+            </article>
+            <br>
+            <button>Reset</button>
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+</html>
